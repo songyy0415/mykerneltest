@@ -907,7 +907,7 @@ runs:
 
         {
           printf '%s\n' 'CONFIG_KSU=y'
-          printf '%s\n' 'CONFIG_KPM=n'
+          printf '%s\n' 'CONFIG_KPM=y'
           printf '%s\n' 'CONFIG_KSU_MULTI_MANAGER_SUPPORT=y'
           printf '%s\n' 'CONFIG_KSU_FULL_NAME_FORMAT="%TAG_NAME%-⚡Ultra⚡@SukiSU"'
         } >> "$DEFCONFIG"
